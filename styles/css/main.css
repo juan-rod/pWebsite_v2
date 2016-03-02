@@ -1,0 +1,110 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #13042B;
+  color: #eee; }
+
+/*//////////////////////////////////////*/
+/*///// borders /////// */
+.border {
+  border: 2px dotted white; }
+
+.border2 {
+  border: 2px solid red; }
+
+.border3 {
+  border: 2px solid yellow; }
+
+.border4 {
+  border: 2px solid white; }
+
+.border5 {
+  border: 2px solid red; }
+
+/*//////////////////////////////////////*/
+/*///// main.html /////// */
+/*//////////////////////////////////////*/
+/*///// nav-bar.html /////// */
+nav .nBar {
+  height: 8vh;
+  min-height: 56px; }
+nav .pageTitle {
+  min-height: 56px; }
+  nav .pageTitle h1 {
+    margin: 0; }
+nav .pageLinks {
+  min-height: 56px; }
+  nav .pageLinks ul {
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent; }
+  nav .pageLinks li {
+    float: right; }
+  nav .pageLinks li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 100; }
+  nav .pageLinks li a:hover {
+    background-color: #111; }
+
+/*//////////////////////////////////////*/
+/*///// header.html /////// */
+.header {
+  height: 85vh;
+  min-height: 596px; }
+
+.infoColumn {
+  height: 100%; }
+  .infoColumn .infoHeader {
+    height: 25%;
+    margin-top: 10%; }
+  .infoColumn .infoBody {
+    height: 50%; }
+
+.imageColumn {
+  height: 100%; }
+  .imageColumn img {
+    height: 100%; }
+
+/*//////////////////////////////////////*/
+/*///// projectBody.html /////// */
+.projectBody {
+  height: 85vh;
+  min-height: 596px; }
+  .projectBody .projectInfoColumn {
+    height: 100%; }
+    .projectBody .projectInfoColumn .projectInfoTitle {
+      height: 25%;
+      margin-top: 10%; }
+    .projectBody .projectInfoColumn .projectInfoBody {
+      height: 50%; }
+  .projectBody .projectImageColumn {
+    height: 100%; }
+    .projectBody .projectImageColumn img {
+      height: 100%; }
+
+/*//////////////////////////////////////*/
+/*///// moreInfo.html /////// */
+.moreInfo {
+  height: 85vh;
+  min-height: 596px; }
+  .moreInfo .moreInfoCol {
+    height: 100%; }
+    .moreInfo .moreInfoCol .moreInfoImg {
+      margin-top: 10%;
+      height: 25%;
+      width: 100%; }
+      .moreInfo .moreInfoCol .moreInfoImg img {
+        border-radius: 50px; }
+    .moreInfo .moreInfoCol .moreInfoBody {
+      height: 50%; }
+
+/*//////////////////////////////////////*/
+/*///// footer.html /////// */
+
+/*# sourceMappingURL=main.css.map */
