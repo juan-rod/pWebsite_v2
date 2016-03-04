@@ -5,77 +5,107 @@ body {
 
 /*//////////////////////////////////////*/
 /*///// borders /////// */
-.border {
-  border: 2px dotted white; }
-
+/*.border{
+	border: 2px dotted white;
+}
+*/
 .border2 {
   border: 2px solid red; }
 
-.border3 {
-  border: 2px solid yellow; }
-
-.border4 {
-  border: 2px solid white; }
-
-.border5 {
-  border: 2px solid red; }
-
+/*.border3{
+	border: 2px solid yellow;
+}
+.border4{
+	border: 2px solid white;
+}
+.border5{
+	border: 2px solid red;
+}
+*/
 /*//////////////////////////////////////*/
 /*///// main.html /////// */
 /*//////////////////////////////////////*/
 /*///// nav-bar.html /////// */
-nav .nBar {
+nav {
+  position: fixed !important;
   height: 8vh;
   min-height: 56px; }
-nav .pageTitle {
-  min-height: 56px; }
-  nav .pageTitle h1 {
-    margin: 0; }
-nav .pageLinks {
-  min-height: 56px; }
-  nav .pageLinks ul {
-    height: 50px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: transparent; }
-  nav .pageLinks li {
-    float: right; }
-  nav .pageLinks li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: 100; }
-  nav .pageLinks li a:hover {
-    background-color: #111; }
+  nav .pageTitle {
+    min-height: 56px; }
+    nav .pageTitle h1 {
+      margin: 0; }
+  nav .pageLinks {
+    min-height: 56px; }
+    nav .pageLinks ul {
+      height: 50px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: transparent; }
+    nav .pageLinks li {
+      float: right; }
+    nav .pageLinks li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-weight: 100; }
+    nav .pageLinks li a:hover {
+      background-color: #111; }
 
 /*//////////////////////////////////////*/
 /*///// header.html /////// */
 .header {
+  margin-top: 56px;
   height: 85vh;
-  min-height: 596px; }
+  min-height: 596px;
+  position: fixed; }
 
 .infoColumn {
   height: 100%; }
   .infoColumn .infoHeader {
     height: 25%;
-    margin-top: 10%; }
+    margin-top: 50%; }
+    .infoColumn .infoHeader .title {
+      letter-spacing: .5vw;
+      font-size: 5vw;
+      text-align: center;
+      margin-bottom: 0;
+      padding: 0;
+      font-weight: 300;
+      text-shadow: 1px 1px 0px #969696; }
+    .infoColumn .infoHeader .subtitle {
+      font-size: 2vw;
+      text-align: center;
+      width: 100%;
+      color: #BDD4DE;
+      padding: 0;
+      line-height: 1px;
+      letter-spacing: 1vw;
+      font-weight: 100; }
   .infoColumn .infoBody {
-    height: 50%; }
+    height: 25%;
+    font-size: 1.5vw;
+    font-weight: 300;
+    text-align: justify; }
 
 .imageColumn {
   height: 100%; }
   .imageColumn img {
-    height: 100%; }
+    height: 100%;
+    display: block;
+    margin: auto; }
 
 /*//////////////////////////////////////*/
 /*///// projectBody.html /////// */
 .projectBody {
   height: 85vh;
-  min-height: 596px; }
+  min-height: 596px;
+  position: relative;
+  margin-top: 90vh;
+  background-color: #13042B; }
   .projectBody .projectInfoColumn {
     height: 100%; }
     .projectBody .projectInfoColumn .projectInfoTitle {

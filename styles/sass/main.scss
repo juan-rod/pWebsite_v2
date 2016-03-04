@@ -8,13 +8,13 @@ body{
 }
 /*//////////////////////////////////////*/
 /*///// borders /////// */
-.border{
+/*.border{
 	border: 2px dotted white;
 }
-.border2{
+*/.border2{
 	border: 2px solid red;
 }
-.border3{
+/*.border3{
 	border: 2px solid yellow;
 }
 .border4{
@@ -23,18 +23,20 @@ body{
 .border5{
 	border: 2px solid red;
 }
-/*//////////////////////////////////////*/
+*//*//////////////////////////////////////*/
 /*///// main.html /////// */
-
 
 
 /*//////////////////////////////////////*/
 /*///// nav-bar.html /////// */
 nav{
-	.nBar{
-		height: 8vh;
-	    min-height: 56px;
-	}
+	
+
+	position:fixed !important;
+	height: 8vh;
+	min-height: 56px;
+
+	
 	.pageTitle{
 		min-height: 56px;
 		h1{
@@ -76,18 +78,44 @@ nav{
 /*//////////////////////////////////////*/
 /*///// header.html /////// */
 .header{
+	margin-top:56px;
 	height: 85vh;
 	min-height: 596px;
+	position:fixed;
 }
 
 .infoColumn{
 	height: 100%;
 	.infoHeader{
 		height:	25%;
-		margin-top: 10%;
+		margin-top: 50%;
+
+		.title{
+			letter-spacing: .5vw;
+			font-size: 5vw;
+			text-align: center;	
+			margin-bottom:0;
+			padding: 0;
+			font-weight: 300;
+			text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);
+		}
+		.subtitle{
+			
+			font-size: 2vw;
+			text-align: center;	
+			width: 100%;
+			color: #BDD4DE;
+			padding:0;
+			line-height: 1px;
+    		letter-spacing: 1vw;
+    		font-weight: 100;
+		}
 	}
 	.infoBody{
-		height:50%;
+		height:25%;
+		font-size: 1.5vw;
+   		font-weight: 300;
+    	text-align: justify;
 	}
 
 }
@@ -95,6 +123,8 @@ nav{
 	height:100%;
 	img{
 		height: 100%;
+		display: block;
+    	margin: auto;
 	}
 }
 
@@ -104,6 +134,9 @@ nav{
 .projectBody{
 	height: 85vh;
 	min-height: 596px;
+	position:relative;
+	margin-top:90vh;
+	background-color:$primary-bg;
 
 	.projectInfoColumn{
 		height: 100%;
